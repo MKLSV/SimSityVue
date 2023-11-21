@@ -1,0 +1,15 @@
+.app-containner {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    // display: flex;
+
+
+    .main-container {
+        margin: 8px 8px 0px 8px;
+        height: calc(100vh - 8px);
+        background-color: #fff;
+        border-radius: 12px 12px 0px 0px;
+        padding: 24px;
+
+    }
+}
